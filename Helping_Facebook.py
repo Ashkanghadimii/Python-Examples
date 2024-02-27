@@ -1,17 +1,33 @@
-L=[]
-num=input("Enter a Number: ")
-for i in num:
+number = eval(input("Enter number:"))
+
+L = []
+for i in str(number):
     L.append(i)
+
 LL=list(map(int,L))
-if 1 <= sum(LL) <= 50 and sum(LL) % 5 == 0:
-    print("Bad Forme ghabele Tabdil be Khosh Form")
-elif 1 <= sum(LL) <= 50 and sum(LL) % 5 != 0:
-    print("Bad Forme Gheyre Ghabele Tabdil")
-elif 1 <= num <= 50 and int(num) % 2 == 0:
-    print("Khosh Forme Zoj ")
-elif 1 <= num <= 50 and int(num) % 2 != 0:
-  print("Khosh Forme Fard")
-elif 1 <= num <= 50 and int(num) % 5 == 0:
-  print("Khosh Forme Matloob")
+s = sum(LL)
+if 1 <= number <= 50:
+
+    if number % 2 == 0:
+
+        if number % 5 == 0:
+            print("khosh form zoj matloob")
+        else:
+            print("khosh form zoj namatloob")
+    
+    else:
+
+        if number % 5 == 0:
+            print("khosh form fard matloob")
+        else:
+            print("khosh form fard namatloob")
+elif 51 <= number <= 99:
+
+    if 1 <= s <= 50 and s % 5 == 0:
+        print("bad form ghabele tabdil be khosh form")
+    
+    else:
+        print("bad form gheire ghabele tabdil be khosh form")
+
 else:
-    print("Nazari Nadarim")
+    print("no idea")
