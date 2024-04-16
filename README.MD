@@ -9,3 +9,5 @@ get a label from the user which contains five letters(G for Green / R for Red / 
 ## 3) Ebay_Sample:
 In this program, we produced a small example of the ebay site, the admin can stop the program, the user can register or enter his account and finally register a new ad, view the previous ads and or delete an ad.
 
+## 4) Guess-the-number:
+In this program, a random number between 1 and 10 is selected by the system and the user has three chances to guess that number correctly.
