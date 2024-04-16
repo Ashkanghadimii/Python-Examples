@@ -47,15 +47,15 @@ while True:
                     print("What do you want to do now",username1,"?")
                     print("1)adding advertisements 2)preview advertisement 3)delete advertisements")
                     Userorder = input()
-                    if Userorder.lower() == "1" or "add" or "Adding Advertisements" or "Adding":
+                    if Userorder.lower() == "1":
                         add_title = input("Enter your add title: ")
                         Add[username1] = add_title
-                    elif Userorder.lower() == "2" or "Preview Advertisement" or "Preview":
+                    elif Userorder.lower() == "2":
                         print("***** Your Adds:*****\n",Add)
-                    elif Userorder.lower() == "2" or "delete advertisements" or "Delete":
+                    elif Userorder.lower() == "3":
                         d=input("Select which ad you want to remove:")
-                        if d in Add:
-                            del Add[d]
+                        if d in Add.values() and Add[username1] == d:
+                            del Add[username1]
                             print(Add)
                 else:
                     print("Wrong Input")
