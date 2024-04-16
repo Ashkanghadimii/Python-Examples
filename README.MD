@@ -11,3 +11,6 @@ In this program, we produced a small example of the ebay site, the admin can sto
 
 ## 4) Guess-the-number:
 In this program, a random number between 1 and 10 is selected by the system and the user has three chances to guess that number correctly.
+
+## 5) Helping_Facebook:
+We take a number from the user and check the conditions of the number according to which two numbers it is between and which number is divisible.
