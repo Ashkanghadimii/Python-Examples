@@ -14,3 +14,28 @@ In this program, a random number between 1 and 10 is selected by the system and 
 
 ## 5) Helping_Facebook:
 We take a number from the user and check the conditions of the number according to which two numbers it is between and which number is divisible.
+
+## 6) Loan_Installment_Calculator:
+In this program, we receive 3 numbers from the user, including the loan period (in years), the loan amount, and the loan percentage, and in the output, we specify how much the user's loan installment is every month.
+
+## 7) Metro_condition:
+In this program, we receive two pairs of 8 numbers including 0 or 1 from the user, which represent the subway seats and are facing each other.
+We show the number of pairs of seats that the passenger has boarded and is indicated by the number 1 in the output
+
+## 8) Profit-Or-Loss-Checker:
+In this program, we receive the number of shares and the purchased price and the current price of the share from the user and print the amount of profit or loss of the user.
+
+## 9) Trip_Condition:
+In this program, we receive a three-letter string from the user including Y meaning Yes and N meaning NO from the user to determine whether he has traveled to the three countries in question and we give him the appropriate nickname based on that.
+
+## 10) draw:
+In this program, we receive 5 names from the user and print one of them randomly
+
+## 11) file:
+This program is a file to get user information and save it in a CSV file
+
+## 12) leap Year:
+In this program, we receive the date from left to right from the user and determine whether it is a leap year or not
+
+## 13) username file:
+This program includes Log In and Sign UP system along with captcha code
