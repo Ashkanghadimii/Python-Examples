@@ -45,3 +45,6 @@ This program presents a mini Shopping Website and present some feautures
 
 ## 15) Rectangle Or Square:
 In this program, we get width and height of a Rectangle and in output we calculate the area of it and we specify if its rectangle or square(with class and methods!!)
+
+## 16) Mini Bank:
+Creating a class called BankAccount to represent a simple bank account with some feautures like deposite and withdraw.
