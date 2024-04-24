@@ -48,3 +48,6 @@ In this program, we get width and height of a Rectangle and in output we calcula
 
 ## 16) Mini Bank:
 Creating a class called BankAccount to represent a simple bank account with some feautures like deposite and withdraw.
+
+## 17) Simple Cinema:
+In this program, the user enters the name of the requested movie and as an output, obtains the time of its playing in the cinema.
