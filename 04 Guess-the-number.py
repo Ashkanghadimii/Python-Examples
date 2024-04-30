@@ -4,9 +4,9 @@ n=random.randint(1,10)
 for i in range(3):
     a=eval(input("Enter your number :"))
     if a==n:
-        print("Hadset dorost bood :",n)
+        print("You Won!! :",n)
         break
     elif a<n:
-        print("drake taresh kon")
+        print("Guess bigger")
     else:
-        print("Kochik taresh kon")
+        print("Guess smaller")
