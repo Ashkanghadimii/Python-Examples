@@ -51,3 +51,6 @@ Creating a class called BankAccount to represent a simple bank account with some
 
 ## 17) Simple Cinema:
 In this program, the user enters the name of the requested movie and as an output, obtains the time of its playing in the cinema.
+
+## 18) Circle:
+In this program, we get two points and the radius of the circle from the user and calculate the area and perimeter of the circle with class and methods!
