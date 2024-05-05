@@ -54,3 +54,6 @@ In this program, the user enters the name of the requested movie and as an outpu
 
 ## 18) Circle:
 In this program, we get two points and the radius of the circle from the user and calculate the area and perimeter of the circle with class and methods!
+
+## 19) Temperature Calculator:
+Calculating Grades in Celsius and Fahrenheit with Class and methods!!
