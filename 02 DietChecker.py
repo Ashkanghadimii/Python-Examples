@@ -4,8 +4,8 @@ a.upper()
 for i in a:
     L.append(i)
 if (L.count("R")) == 5 or (L.count("R")) == 3 or (L.count("R")) == 2 or L.count("Y") == 2 or L.count("Y") == 5 :
-    print("Nakhor Lite")
+    print("Do not Eat")
 else:
-    print("Rahat Bash")
+    print("Feel free to eat")
 
 
